@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772170984682",
+    "project_id": "driver-management-cb67c",
+    "storage_bucket": "driver-management-cb67c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772170984682:android:d99c860aab4b9370eabb93",
+        "android_client_info": {
+          "package_name": "com.example.TrailerAce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiVd3QuKNxNUf8b02Wpqq0KzWX0vNAbis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

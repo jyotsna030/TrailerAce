@@ -1,0 +1,60 @@
+name: driver_management_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.1.8
+  location: ^4.3.0
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.4
+  cloud_firestore: ^5.2.1
+  flutter_local_notifications: ^17.2.2
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  flutter_chat_ui: ^1.0.9
+  flutter_otp_text_field: ^1.0.3
+  url_launcher: ^6.3.0
+  path_provider: 2.1.4
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Additional dependencies
+dependency_overrides:
+  collection: ^1.19.0
+  http_parser: ^4.1.0
+  js: ^0.7.1
+  leak_tracker: ^10.0.5
+  leak_tracker_flutter_testing: ^3.0.5
+  material_color_utilities: ^0.12.0
+  meta: ^1.15.0
+  string_scanner: ^1.3.0
+  vm_service: ^14.2.4
+  web: ^1.0.0
+
+flutter:
+  assets:
+    - assets/fonts/NotoSans-Medium.ttf
+    - assets/fonts/NotoSans-Bold.ttf
+    - assets/fonts/NotoSans-Italic.ttf
+    - assets/images/login_icon.png
+    - assets/images/register_icon.png
+    - assets/images/phone.gif
+    - assets/images/otp_screen.jpg
+    - assets/images/login.jpg
+    - assets/images/registar.jpg
+    - assets/images/map.png
+    - assets/images/driver.jpg
+    - assets/images/support.jpg
+
+  uses-material-design: true
